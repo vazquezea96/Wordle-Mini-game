@@ -3,13 +3,14 @@
 }
 
 body {
-  /* background-color: black; */
+  background-color: black;
 }
 
 h1 {
   text-align: center;
   color: white;
 }
+
 /*  Game board Style  */
 
 #game-board {
@@ -30,7 +31,6 @@ h1 {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  color: white;
 }
 
 .filled-box {
@@ -39,9 +39,11 @@ h1 {
 
 .letter-row {
   display: flex;
+  color: white;
 }
 
 /* Keyboard Style */
+
 #keyboard-cont {
   margin: 1rem 0;
   display: flex;
